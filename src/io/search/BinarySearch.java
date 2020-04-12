@@ -3,25 +3,26 @@ import java.util.Arrays;
 public class BinarySearch {
     public static void main(String []str)
     {
-        int[] num= {2,4,12,3,6,90,45,34,56};
-        int find=2;
-
+        int[] num= {7,45,12,13,83,567,1234,23,6773,4,67859};
+        int find=567;
         Arrays.sort(num);
-        System.out.println("the sorted array is: "+Arrays.toString(num));
+        System.out.println(Arrays.toString(num));
+
         int result=binarySearch(num,find);
         if(result==-1)
         {
             System.out.println("element not found");
         }
         else{
-            System.out.println("element is found:"+ " "+result);
+            System.out.println("element is found:"+" "+result);
         }
     }
     private static int binarySearch(int[] num, int find) {
         int l=0;
         int u=num.length-1;
-        int mid=(l+u)/2;
+
         while(l<=u){
+            int mid=(l+u)/2;
             if(num[mid]==find)
             {
                 return mid;
