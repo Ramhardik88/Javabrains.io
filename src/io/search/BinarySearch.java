@@ -6,6 +6,7 @@ public class BinarySearch {
         int[] num= {7,45,12,13,83,567,1234,23,6773,4,67859};
         int find=567;
         Arrays.sort(num);
+        System.out.println(num);
         System.out.println(Arrays.toString(num));
 
         int result=binarySearch(num,find);

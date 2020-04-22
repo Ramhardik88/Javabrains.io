@@ -1,5 +1,5 @@
 package io.search;
-
+//time=o(n)
 public class Linearsearch {
     public static void main(String []args){
         int[] num= {2,4,12,3,6,90,45,34,56};
