@@ -1,4 +1,4 @@
-package io.stackConversion;
+package com.stackConversion;
 
 import java.util.Stack;
 
