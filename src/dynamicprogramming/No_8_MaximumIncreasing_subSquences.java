@@ -1,6 +1,6 @@
 package dynamicprogramming;
 
-public class No_7_MaximumIncreasing_subSquences
+public class No_8_MaximumIncreasing_subSquences
 {
     public static void main(String[] args) {
 
