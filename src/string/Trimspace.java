@@ -1,4 +1,4 @@
-package io.string;
+package string;
 
 public class Trimspace
 {
