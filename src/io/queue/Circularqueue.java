@@ -34,7 +34,7 @@ public class Circularqueue
     {
         int x=0;
         if(isEmpty())
-            System.out.println("Stack underflow error");
+            System.out.println("DataStructure.DataStructure.Stack underflow error");
         else if(front==rear)
         {
             x=cqueue[front];

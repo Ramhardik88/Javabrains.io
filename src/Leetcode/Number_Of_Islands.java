@@ -3,8 +3,10 @@ package Leetcode;
 public class Number_Of_Islands
 {
     public static void main(String []args){
-String[][]  s={{"1","1","1","1","0"},{"1","1","0","1","0"}
-,{"1","1","0","0","0"},{"0","0","0","0","0"}};
+String[][]  s=  {{"1","1","1","1","0"}
+                ,{"1","1","0","1","0"}
+                ,{"1","1","0","0","0"}
+                ,{"0","0","0","0","0"}};
     }
     public static int numIslands(char[][] grid) {
         int count=0;

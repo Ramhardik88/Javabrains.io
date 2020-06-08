@@ -3,8 +3,8 @@ package dynamicprogramming;
 public class No_4_One_String_to_Another
 {
     public static void main(String[] args) {
-        String s1="table";
-        String s2="tbres";
+        String s1="great";
+        String s2="create";
         int i1=0;
         int i2=0;
       //  System.out.println(oneString_to_another_TD(s1,s2,i1,i2));

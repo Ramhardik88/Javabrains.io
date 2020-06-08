@@ -7,7 +7,7 @@ public class Stack
     public void push(int data)
     {
         if(top==5){
-            System.out.println("Stack is full");
+            System.out.println("DataStructure.DataStructure.Stack is full");
         }
         else {
 

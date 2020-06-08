@@ -31,7 +31,8 @@ class Author{
         this.gender = gender;
     }
 }
-class Book{
+class Book  extends Author{
+
     private double price;
     private int qtyinstock;
 
